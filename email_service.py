@@ -7,8 +7,8 @@ import streamlit as st
 
 def send_otp_email(receiver_email, otp, user_name="User"):
 
-    sender_email = os.getenv("EMAIL_USER")
-    app_password = os.getenv("EMAIL_PASS")
+    sender_email = st.secrets("EMAIL_USER")
+    app_password = st.secrets("EMAIL_PASS")
 
     if not sender_email or not app_password:
         st.error("Email credentials not found.")
