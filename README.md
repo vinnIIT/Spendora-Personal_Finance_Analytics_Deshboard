@@ -28,3 +28,6 @@ Additional Functionalities:-
 
 - Email services for OTP verification
 - Automated PDF report generation.
+
+
+LIVE APP: https://spendora-personalfinanceanalyticsdeshboard-onsphgg8zhlhsqs2uxm.streamlit.app/
